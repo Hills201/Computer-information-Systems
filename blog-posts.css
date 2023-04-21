@@ -1,0 +1,139 @@
+/* Blog Post */
+.blog-post {
+    margin-bottom: 4rem;
+  }
+  .blog-header{
+    color: #2B3A67;
+  }
+  
+  .blog-post-title {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+  }
+  
+  .blog-post-meta {
+    margin-bottom: 1.5rem;
+    color: #2B3A67;
+  }
+  
+  /* Pagination */
+
+  /* Sidebar Widgets */
+  .widget {
+    margin-bottom: 2rem;
+  }
+  
+  .widget-title {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .widget ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .widget ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .widget ul li a {
+    color: #333;
+  }
+  
+  .widget ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .widget_search input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .widget_search input[type="submit"] {
+    display: block;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .widget_search input[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  .widget_categories ul li a:before {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 0.5rem;
+  }
+  
+  .widget_archive ul li a:before {
+    content: "\f073";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 0.5rem;
+  }
+  
+  .widget_recent_comments ul li a:before {
+    content: "\f0e5";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 0.5rem;
+  }
+  
+  .widget_recent_entries ul li a:before {
+    content: "\f0e6";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 0.5rem;
+  }
+  
+
+  
+  /* Animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  .fadeInUp {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes rotateIn {
+    from {
+      transform-origin: center center;
+      transform: rotate3d(0, 0, 1, -200deg);
+      opacity: 0;
+    }
+  
+    to {
+      transform-origin: center center;
+      transform: none;
+      opacity: 1;
+    }
+  }
+  
+  .rotateIn {
+    animation-name: rotateIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
